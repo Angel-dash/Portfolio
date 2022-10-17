@@ -95,3 +95,38 @@ body{
     padding: 10px;
     flex: 100%;
 }
+.skills {
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(29, 27, 27);
+    border-radius: 8px;
+}
+
+.skills>h1 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 8px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.skills-item-left {
+
+    padding: 10px;
+    flex: 50%;
+}
+
+.skills-item-right {
+    padding: 10px;
+    flex: 50%;
+}
