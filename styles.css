@@ -130,3 +130,28 @@ body{
     padding: 10px;
     flex: 50%;
 }
+.gallery-container{
+
+    text-align:center;
+    margin-top: 125px;
+}
+.gallery{
+    background-color: brown;
+    box-sizing: border-box;
+    padding:16px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 300px;
+    gap:16px;
+}
+.gallery-col-2{
+    grid-column: span 2;
+}
+.gallery-row-2{
+    grid-row: span 2;
+}
+.gallery>img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
